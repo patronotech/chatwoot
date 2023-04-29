@@ -251,7 +251,7 @@ sudo nano /etc/nginx/sites-available/pgadmin
 
 ```
 server {
-  server_name pgadmin.socialatendimento.com.br;
+  server_name pgadmin.seudominio.com.br;
   location / {
     proxy_pass http://127.0.0.1:3003;
     proxy_http_version 1.1;
@@ -281,7 +281,7 @@ Acesse:
 http://pgadmin.seudominio.com.br
 </p>
 Login: admin@admin.com.br
-Senha: pgadmin
+Senha: admin
 </p>
 Crie seu servidor
 </p>
